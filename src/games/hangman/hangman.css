@@ -1,0 +1,36 @@
+ 
+.hangman{ 
+    height:100vh;
+    flex-direction: column;
+    align-content: center; 
+    background-repeat: repeat; 
+}
+.hangman .letters-container{
+    display: grid;
+    grid-template-columns: repeat(5,60px);
+    justify-content: center;
+    grid-gap:6px;
+    margin-bottom:5px;
+}
+
+.hangman>.word-container{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+.hangman>.word-container>.letter{
+    width:1em;
+    margin:6px;
+    font-size: 2em;
+}
+
+.hangman>.result>h2{
+    font-size:2.0em
+}
+.hangman>.result>button{
+    padding:10px 20px;
+    font-size:1.2em
+}
+.hangman>.result>button:hover{
+    cursor:pointer
+}

@@ -1,0 +1,15 @@
+.word-container>.field{
+    width:1.5em;
+    border-bottom: 2px solid grey;
+    margin:5px;
+    font-size: 2em;
+}
+.word-container>.field>.letter{
+    font-family: Architects Daughter;
+    font-weight: 700;
+    visibility: hidden;
+}
+
+.word-container>.field>.letter.visible{
+    visibility: visible;
+}

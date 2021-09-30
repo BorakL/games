@@ -1,0 +1,6 @@
+.hangman>.letters-container>button{
+    height:30px;
+    font-size: 1.1em;
+    outline: none; 
+    cursor: pointer;
+}
