@@ -14,7 +14,7 @@ class Result extends React.Component{
 
         return(
             <>
-            <img src= {`images/hangman/hangman/${chance}.png`} alt="hangman"/>
+            <img src= {`images/Hangman/Hangman/${chance}.png`} alt="hangman"/>
             {(this.props.isOver || this.props.isWin) && 
                 <>
                 {this.props.isOver && <h2>Game Over</h2>}
