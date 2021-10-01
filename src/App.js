@@ -1,4 +1,4 @@
-import Hangman from './games/hangman/hangman';
+import Hangman from './games/hangman/Hangman';
 import ActionGame from './games/runner/ActionGame';
 import Memory from './games/memory/Memory';  
 import {Route, Switch, Link} from 'react-router-dom';
